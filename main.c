@@ -67,6 +67,18 @@ void datecmp(){
 
 //두 개의 파일 수정 시간을 비교하는 함수 작성
 void timecmp(){
+
+}  
+//두 개의 파일 블락 수를 비교하는 함수 작성 
+void blockcmp(){
+
+}  
+//두 개의 파일 수정 날짜를 비교하는 함수 작성
+void datecmp(){
+
+}  
+//두 개의 파일 수정 시간을 비교하는 함수 작성 
+void timecmp(){ 
    int result1 = time1->tm_hour*60 + time1->tm_min;
    int result2 = time2->tm_hour*60 + time2->tm_min;      
 
