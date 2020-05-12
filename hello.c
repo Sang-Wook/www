@@ -16,7 +16,7 @@ void sizecmp();
 void blockcmp(); 
 void datecmp(); 
 void timecmp();  
-
+     
 int main(){     
    filestat1();     
    filestat2();     
@@ -60,8 +60,8 @@ void timecmp(){
    int result2 = time2->tm_hour*60 + time2->tm_min;      
 
    printf("time compare\n");           
-   if(result1 > result2) printf("text2 is early\n\n");     
-   else if(result2 > result1) printf("text1 is early\n\n");     
+   if(result1 > result2) printf("text2 is early\n\n\n");     
+   else if(result2 > result1) printf("text1 is early\n\n\n");     
    else printf("same time\n\n");     
    return; 
 }
